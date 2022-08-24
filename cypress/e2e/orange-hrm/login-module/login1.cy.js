@@ -3,6 +3,7 @@
 describe("Try login to application with valid credentials", ()=> {
 
     it("Login Credentials", ()=> {
+        cy.viewport(1280, 720)
         cy.visit("https://opensource-demo.orangehrmlive.com/")
           .url().should("include", "login")
 

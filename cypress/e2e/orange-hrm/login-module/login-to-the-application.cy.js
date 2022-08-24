@@ -1,6 +1,6 @@
 ///<reference types = "cypress"/>
 
-describe.skip("login to the orange-HRM application", ()=> {
+describe("login to the orange-HRM application", ()=> {
 
     it("Launch url", ()=> {
 
